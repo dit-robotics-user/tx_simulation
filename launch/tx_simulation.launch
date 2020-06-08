@@ -1,0 +1,15 @@
+<launch>
+
+	<node pkg="tx_simulation" type="txSimulation" name="txSimulation" output="screen" respawn="true" >
+	</node>
+	
+	<node pkg="tx_simulation" type="txkeyboardInput" name="txkeyboardInput" output="screen" respawn="true" >
+	</node>
+
+	<param name="/ST1num1" type="int" value="24576" />
+	<param name="/ST1num2" type="int" value="0" />
+	<param name="/ST1num3" type="int" value="0" />
+	<param name="/ST1num4" type="int" value="0" />
+
+
+</launch>
